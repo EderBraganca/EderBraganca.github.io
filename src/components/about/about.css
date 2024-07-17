@@ -1,0 +1,21 @@
+.aboutSection{
+    background-color: #abced4;
+    padding: 50px 0;
+    width: 100vw;
+    height: 50vh;
+}
+
+.fotoPessoal{
+    border-radius: 50%;
+    margin-left: 5vw;
+}
+
+.aboutText{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

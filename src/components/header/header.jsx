@@ -1,7 +1,12 @@
+import './header.css';
+
 export const Header = () => {
     return (
-        <>
-            <p>Header</p>
-        </>
+        <header className='menu'>
+            <a href='#'>About</a>
+            <a href='#'>Projects</a>
+            <a href='#'>Skills</a>
+            <a href='#'>Contact</a>
+        </header>
     )
 }
