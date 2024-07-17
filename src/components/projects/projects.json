@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Language Training",
+            "description": "A language training app that helps users learn new languages.",
+            "image": "https://private-user-images.githubusercontent.com/88894912/340454901-807aa181-8c27-4ae3-85c9-35aeab082c6a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEyMjc2ODAsIm5iZiI6MTcyMTIyNzM4MCwicGF0aCI6Ii84ODg5NDkxMi8zNDA0NTQ5MDEtODA3YWExODEtOGMyNy00YWUzLTg1YzktMzVhZWFiMDgyYzZhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE3VDE0NDMwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg2NDM2OGJkNzNlZWJlNzJiY2NlZWJjOTczYWM5MTA0ODhkMDc1OWQxMTNjMWQ5YTBmOWUzYzk4MTgzMzUzNjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.7X62-xxnDNBfEwcku29mOW6vimL1UG354HsODtVyFCM"
+        },
+        {
+            "id": 2,
+            "name": "Chat Bot",
+            "description": "A chat bot that helps users with their queries.",
+            "image": "https://private-user-images.githubusercontent.com/88894912/340464504-ca0243df-a318-4895-8761-343e3cae3ad8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEyMjc2NTgsIm5iZiI6MTcyMTIyNzM1OCwicGF0aCI6Ii84ODg5NDkxMi8zNDA0NjQ1MDQtY2EwMjQzZGYtYTMxOC00ODk1LTg3NjEtMzQzZTNjYWUzYWQ4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE3VDE0NDIzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc3NWIwY2Y4NmE3YmU1ODZhMDRmMzJjNzU2YTU0N2M5M2Q5Yzg0MWY5NmFkNjVmNmQ2MzI1MDU1NmNmZTU3OWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.lugsa_2jLZu7E4G5fp--6_4VGHSNmXiF2boOKLU8Evc"
+        },
+        {
+            "id": 3,
+            "name": "Americanas Login",
+            "description": "A login page for Americanas.",
+            "image": "https://private-user-images.githubusercontent.com/88894912/341981992-66122957-accc-4e04-8adc-4d0714a44079.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEyMjc1ODYsIm5iZiI6MTcyMTIyNzI4NiwicGF0aCI6Ii84ODg5NDkxMi8zNDE5ODE5OTItNjYxMjI5NTctYWNjYy00ZTA0LThhZGMtNGQwNzE0YTQ0MDc5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE3VDE0NDEyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE5NmNhNmExOTM1OTA4NmJiMGZlOWRhZTZjMDM4ZGNkNzJiMjE1MDU3YzgzZDMyOGVhODA3ZTI5MDM1ODk0ODEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.nvD4T-LiKXVUekSlxo03KZVCLKX0kJFndGxx3pa3dHM"
+        },
+        {
+            "id": 4,
+            "name": "Dynamic Cart",
+            "description": "A dynamic cart that allows users to add and remove items.",
+            "image": "https://private-user-images.githubusercontent.com/88894912/341816402-8a02e16f-960b-4038-a9cd-55dcd8832bac.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjEyMjc2MTEsIm5iZiI6MTcyMTIyNzMxMSwicGF0aCI6Ii84ODg5NDkxMi8zNDE4MTY0MDItOGEwMmUxNmYtOTYwYi00MDM4LWE5Y2QtNTVkY2Q4ODMyYmFjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzE3VDE0NDE1MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQyMTQzMGUwZWI2NDU0MjMzNmVkMWMxNTRhZTY4M2NlMGY4MDQzZDExM2Y5MTRmN2E3ZDBjNjNiZWY0YmRjYTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.81xoYzX2kjIdoONUTsHR4ys0cO6aYqJOVkiS2fSZmOU"
+        }
+    ]
+}
