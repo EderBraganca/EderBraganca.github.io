@@ -34,7 +34,7 @@ export const Form = () =>{
                     fullWidth
                 />
             <br />
-            <TextInput multiline rows={4} placeholder='Your Text message"' fullWidth />
+            <TextInput multiline rows={4} placeholder='Your Text message' fullWidth />
             
         </div>
     );

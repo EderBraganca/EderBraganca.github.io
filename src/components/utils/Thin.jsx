@@ -4,16 +4,27 @@ import { Window, WindowHeader, Button, Toolbar, WindowContent, ScrollView, MenuL
 export const Thin = ({ projectName, imageSrc, projectLink}) => {
     const [open, setOpen] = useState(false);
 
+    const goToLink = () => {
+        window.open(projectLink, '_blank');
+    }
+
     return (
         <Window style={{ maxWidth: '250px' }}>
-            <WindowHeader style={{ backgroundColor: '#060083', color: 'white'}}>
-                {projectName}
-            </WindowHeader>
+            <a href={projectLink}  
+                target='_blank' rel='noopener noreferrer'
+                style={{textDecoration: 'none',
+                color: 'black'}}>
+                <WindowHeader style={{ backgroundColor: '#060083', color: 'white'}} >
+                    {projectName}
+                </WindowHeader>
+            </a>
             <Toolbar noPadding>
-                <Button variant='thin' disabled>
+                <Button variant='thin' disabled
+                        style={{ backgroundColor: 'transparent' }}>
                     Upload
                 </Button>
-                <Button variant='thin' disabled>
+                <Button variant='thin' disabled
+                        style={{ backgroundColor: 'transparent' }}>
                     Save
                 </Button>
                 <div
@@ -28,6 +39,7 @@ export const Thin = ({ projectName, imageSrc, projectLink}) => {
                         onClick={() => setOpen(!open)}
                         size='sm'
                         active={open}
+                        style={{ backgroundColor: 'transparent' }}
                     >
                         Share
                     </Button>
@@ -43,7 +55,7 @@ export const Thin = ({ projectName, imageSrc, projectLink}) => {
                             }}
                             onClick={() => setOpen(false)}
                         >
-                            <MenuListItem size='sm'>Copy link</MenuListItem>
+                            <MenuListItem size='sm' active>Copy link</MenuListItem>
                             <Separator />
                             <MenuListItem size='sm'>
                                 <a href={projectLink} 
