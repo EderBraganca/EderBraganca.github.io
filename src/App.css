@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'ms_sans_serif';
+  src: url('react95/dist/fonts/ms_sans_serif.woff2') format('woff2');
+}
+
 body {
   margin: 0; 
   text-align: center;
-  background-color: #f7ffff;
+  color: black;
+  background-color: #C6C6C6;
+  font-family: 'ms_sans_serif';
 }

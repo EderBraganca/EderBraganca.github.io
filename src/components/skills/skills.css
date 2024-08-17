@@ -1,8 +1,6 @@
 .skillsSection{
-    background-color: #c5dee3;
     padding: 50px 0;
     width: 100%;
-    font-family: 'Courier New', Courier, monospace
 }
 
 .skillsIcons{
@@ -13,5 +11,7 @@
 }
 
 .skillsIcons img{
-    width: 18vw;
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
 }

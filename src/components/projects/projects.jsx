@@ -1,6 +1,7 @@
 import React from 'react';
 import './projects.css';
 import projects from './projects.json';
+import { Thin } from '../utils/Thin';
 
 const projectsList = projects.projects;
 
@@ -10,15 +11,10 @@ export const Projects = () => {
             <p>Projects</p>
             <div className="projectsList">
                 {projectsList.map((project) => (
-                    <div key={project.id} className="projectCard">
-                        <a href={project.link} target="_blank" rel="noreferrer">
-                            <section className="textProject">
-                                <h3>{project.name}</h3>
-                                <p>{project.description}</p>
-                            </section>
-                            <img src={project.image} alt={project.name} className='projectImage' />
-                        </a>
-                    </div>
+                    <Thin key={project.id} 
+                        projectName={project.name} 
+                        imageSrc={project.image}
+                        projectLink={project.link}/>
                 ))}
             </div>
         </section>

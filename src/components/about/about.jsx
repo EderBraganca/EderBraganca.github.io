@@ -1,13 +1,35 @@
 import './about.css';
+import React, { useEffect, useState } from 'react';
+import Typewriter from 'typewriter-effect';
+
+const text  = "My name is Eder, I'm 22 years old, I'm a Full Stack Developer and I'm a student of Computer Science at the Federal University of Ouro Preto (UFOP)."
 
 export const About = () => {
+    const [showText, setShowText] = useState(false);
+    useEffect(() => {
+        setShowText(true);
+    }, []);
+
     return (
         <section className='aboutSection'>
-            <p>About</p>
             <section className='aboutText'>
-                <p>My name is Eder, I'm 22 years old and I'm a student of Computer Science at the Federal University of Ouro Preto (UFOP).</p>
-                <img className='fotoPessoal' src='https://media.licdn.com/dms/image/D4D03AQFNyCrK-NLULg/profile-displayphoto-shrink_200_200/0/1715785876795?e=1726704000&v=beta&t=BJjUBaT_5Y9mPqr3OqUwzw-WldVKvJBkMcda6eWKJkk' alt='Foto pessoal' />
+                {showText && (
+                    <Typewriter
+                        options={{
+                            strings: [
+                                text,
+                            ],
+                            autoStart: true,
+                            onComplete: () => setShowText(false),
+                            cursor: '|',
+                            cursorClassName: 'typewriter-cursor',
+                            loop: false,
+                            deleteSpeed: Infinity, 
+                            delay: 30,
+                        }}
+                    />
+                )}
             </section>
         </section>
-    )
-}
+    );
+};
