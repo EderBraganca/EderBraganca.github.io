@@ -2,7 +2,7 @@ import './about.css';
 import React, { useEffect, useState } from 'react';
 import Typewriter from 'typewriter-effect';
 
-const text  = "My name is Eder, I'm 22 years old, I'm a Full Stack Developer and I'm a student of Computer Science at the Federal University of Ouro Preto (UFOP)."
+const text  = "My name is Eder Bragança, I'm 22 years old, I'm a Full Stack Developer and I'm a student of Computer Science at the Federal University of Ouro Preto (UFOP)."
 
 export const About = () => {
     const [showText, setShowText] = useState(false);
