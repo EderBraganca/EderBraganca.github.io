@@ -9,12 +9,13 @@ export const Thin = ({ projectName, imageSrc, projectLink}) => {
     }
 
     return (
-        <Window style={{ maxWidth: '250px' }}>
+        <Window style={{ maxWidth: '300px', margin: '10px'}}>
             <a href={projectLink}  
                 target='_blank' rel='noopener noreferrer'
                 style={{textDecoration: 'none',
-                color: 'black'}}>
-                <WindowHeader style={{ backgroundColor: '#060083', color: 'white'}} >
+                color: 'black',
+                textAlign: 'start'}}>
+                <WindowHeader style={{ backgroundColor: '#060083', color: 'white', padding:'0 10px'}} >
                     {projectName}
                 </WindowHeader>
             </a>

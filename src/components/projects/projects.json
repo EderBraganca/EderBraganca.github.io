@@ -27,6 +27,30 @@
             "description": "A dynamic cart that allows users to add and remove items.",
             "image": "./src/assets/DynamicCart.png",
             "link": "https://github.com/EderBraganca/DynamicCart"
+        },
+        {
+            "id": 5,
+            "name": "Jokenpo Game",
+            "image": "./src/assets/Jokenpo.png",
+            "link": "https://github.com/EderBraganca/JoKenPo"
+        },
+        {
+            "id": 6,
+            "name": "Sustenta Lixo",
+            "image": "./src/assets/SustentaLixo.png",
+            "link": "https://github.com/EderBraganca/SustentaLixo"
+        },        
+        {
+            "id": 7,
+            "name": "Facebook Login",
+            "image": "./src/assets/FacebookLogin.png",
+            "link": "https://github.com/EderBraganca/FacebookLogin"
+        },        
+        {
+            "id": 8,
+            "name": "Genius Game",
+            "image": "./src/assets/Genius.png",
+            "link": "https://github.com/EderBraganca/Genius"
         }
     ]
 }
