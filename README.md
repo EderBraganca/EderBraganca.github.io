@@ -2,7 +2,7 @@
 
 A personal portfolio with Windows 95 theme.
 
-Actually, is available in https://ederbraganca.github.io
+Actually, is available on https://ederbraganca.github.io
 
 Used technologies:
  - React
