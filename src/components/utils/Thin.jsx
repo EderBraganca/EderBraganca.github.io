@@ -4,10 +4,6 @@ import { Window, WindowHeader, Button, Toolbar, WindowContent, ScrollView, MenuL
 export const Thin = ({ projectName, imageSrc, projectLink}) => {
     const [open, setOpen] = useState(false);
 
-    const goToLink = () => {
-        window.open(projectLink, '_blank');
-    }
-
     return (
         <Window style={{ maxWidth: '300px', margin: '10px'}}>
             <a href={projectLink}  
@@ -79,7 +75,7 @@ export const Thin = ({ projectName, imageSrc, projectLink}) => {
                     <img
                         style={{ width: '200px', height: '100px', display: 'block' }}
                         src={imageSrc}
-                        alt='kiwi'
+                        alt='Project Image'
                     />
                 </ScrollView>
             </WindowContent>

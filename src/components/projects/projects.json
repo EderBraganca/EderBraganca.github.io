@@ -4,52 +4,52 @@
             "id": 1,
             "name": "Language Training",
             "description": "A language training app that helps users learn new languages.",
-            "image": "./src/assets/LanguageTraining.png",
+            "image": "https://github.com/EderBraganca/EderBraganca.github.io/blob/main/src/assets/LanguageTraining.png?raw=true",
             "link": "https://github.com/EderBraganca/LanguageTraining"
         },
         {
             "id": 2,
             "name": "Chat Bot",
             "description": "A chat bot that helps users with their queries.",
-            "image": "./src/assets/ChatBot.png",
+            "image": "https://github.com/EderBraganca/EderBraganca.github.io/blob/main/src/assets/ChatBot.png?raw=true",
             "link": "https://github.com/EderBraganca/ChatBot"
         },
         {
             "id": 3,
             "name": "Americanas Login",
             "description": "A login page for Americanas.",
-            "image": "./src/assets/AmericanasLogin.png",
+            "image": "https://github.com/EderBraganca/EderBraganca.github.io/blob/main/src/assets/AmericanasLogin.png?raw=true",
             "link": "https://github.com/EderBraganca/AmericanasLogin"
         },
         {
             "id": 4,
             "name": "Dynamic Cart",
             "description": "A dynamic cart that allows users to add and remove items.",
-            "image": "./src/assets/DynamicCart.png",
+            "image": "https://github.com/EderBraganca/EderBraganca.github.io/blob/main/src/assets/DynamicCart.png?raw=true",
             "link": "https://github.com/EderBraganca/DynamicCart"
         },
         {
             "id": 5,
             "name": "Jokenpo Game",
-            "image": "./src/assets/Jokenpo.png",
+            "image": "https://github.com/EderBraganca/EderBraganca.github.io/blob/main/src/assets/Jokenpo.png?raw=true",
             "link": "https://github.com/EderBraganca/JoKenPo"
         },
         {
             "id": 6,
             "name": "Sustenta Lixo",
-            "image": "./src/assets/SustentaLixo.png",
+            "image": "https://github.com/EderBraganca/EderBraganca.github.io/blob/main/src/assets/SustentaLixo.png?raw=true",
             "link": "https://github.com/EderBraganca/SustentaLixo"
         },        
         {
             "id": 7,
             "name": "Facebook Login",
-            "image": "./src/assets/FacebookLogin.png",
-            "link": "https://github.com/EderBraganca/FacebookLogin"
+            "image": "https://github.com/EderBraganca/EderBraganca.github.io/blob/main/src/assets/FacebookLogin.png?raw=true",
+            "link": "https://github.com/EderBraganca/SustentaLixo"
         },        
         {
             "id": 8,
             "name": "Genius Game",
-            "image": "./src/assets/Genius.png",
+            "image": "https://github.com/EderBraganca/EderBraganca.github.io/blob/main/src/assets/Genius.png?raw=true",
             "link": "https://github.com/EderBraganca/Genius"
         }
     ]
