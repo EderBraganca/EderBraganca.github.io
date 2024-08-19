@@ -19,7 +19,7 @@ export const Skills = () => {
                         <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/typescript-def.png" alt="TS Icon" />
                     </a>
                     <a href='https://github.com/EderBraganca?tab=repositories&q=Spring' target='_blank'>
-                        <img src="https://static-00.iconduck.com/assets.00/spring-icon-2048x2045-yufnoc34.png" alt="Spring Icon" />
+                        <img src="https://img.icons8.com/?size=512&id=90519&format=png" alt="Spring Icon" />
                     </a>
                 </section>
             </section>

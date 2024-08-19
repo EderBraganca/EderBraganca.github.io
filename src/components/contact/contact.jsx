@@ -6,13 +6,11 @@ import { FaInstagram } from "react-icons/fa";
 import { Form } from '../utils/Form';
 
 export const Contact = () => {
-    const { email, foneNumber, github, linkedin, instagram } = contacts.contacts;
+    const { email, github, linkedin, instagram } = contacts.contacts;
     
     const handleEmail = () => {
         window.open('mailto:' + email);
     }
-    //<p className='emailLabel'>{email}</p>
-    //<p className='foneLabel'>{foneNumber}</p>
     return (
         <footer className="contactsSection">
             <section className='sendEmailSection'>
@@ -32,6 +30,9 @@ export const Contact = () => {
                 <a className='instagramLink' target='_blank' href={instagram}>
                     <FaInstagram />
                 </a>
+            </section>
+            <section className='footerText'>
+                <p>© 2024 Eder Bragança</p>
             </section>
         </footer>
     )
