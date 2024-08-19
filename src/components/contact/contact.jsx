@@ -4,6 +4,7 @@ import { SiLinkedin } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { Form } from '../utils/Form';
+import { Button } from 'react95'
 
 export const Contact = () => {
     const { email, github, linkedin, instagram } = contacts.contacts;
@@ -11,10 +12,16 @@ export const Contact = () => {
     const handleEmail = () => {
         window.open('mailto:' + email);
     }
+    const downloadCV = () => {
+        window.open('https://github.com/EderBraganca/EderBraganca.github.io/blob/main/src/assets/international_resume.pdf')
+    }
+
     return (
         <footer className="contactsSection">
             <section className='sendEmailSection'>
-                <p>Send me a Email</p>
+                <nav>
+                    <p>Send me a Email</p>
+                </nav>
                 <form onSubmit={handleEmail}>
                     <Form/>
                 </form>
@@ -30,6 +37,9 @@ export const Contact = () => {
                 <a className='instagramLink' target='_blank' href={instagram}>
                     <FaInstagram />
                 </a>
+                <section className='downloadCV'>
+                    <Button onClick={downloadCV}>Download CV</Button>
+                </section>
             </section>
             <section className='footerText'>
                 <p>© 2024 Eder Bragança</p>
