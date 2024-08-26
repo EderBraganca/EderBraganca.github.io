@@ -13,16 +13,16 @@ export const Header = () => {
                     👤 
                 </Avatar>About
             </a>
-            <a href='#' onClick={() => scrollToElement('projectsSection')}>
-                <Avatar square size={50}>
-                    🚀 
-                </Avatar>Projects
-                </a>
             <a href='#' onClick={() => scrollToElement('skillsSection')}>
                 <Avatar square size={50}>
                     ✎ 
                 </Avatar>Skills
             </a>
+            <a href='#' onClick={() => scrollToElement('projectsSection')}>
+                <Avatar square size={50}>
+                    🚀 
+                </Avatar>Projects
+                </a>
             <a href='#' onClick={() => scrollToElement('contactsSection')}>
                 <Avatar square size={50}>
                     ✉️ 
